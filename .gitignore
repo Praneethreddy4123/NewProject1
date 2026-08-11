@@ -1,0 +1,63 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+
+# Spring Boot
+application.properties
+application.yml
+application-dev.yml
+application-prod.yml
+.env
+.env.local
+.env.*.local
+
+# Node / npm / Yarn
+node_modules/
+dist/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
