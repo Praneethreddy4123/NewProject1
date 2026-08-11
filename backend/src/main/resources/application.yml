@@ -1,0 +1,28 @@
+spring.application.name=car-dealership-api
+server.port=8080
+
+# MongoDB Configuration
+spring.data.mongodb.uri=${DATABASE_CONNECTION_STRING:mongodb://localhost:27017/car_dealership}
+spring.data.mongodb.database=car_dealership
+
+# JWT Configuration
+jwt.secret=${JWT_SECRET:your-super-secret-jwt-key-change-in-production}
+jwt.expiration=86400000
+
+# Cloudinary Configuration
+cloudinary.cloud-name=${CLOUDINARY_CLOUD_NAME:}
+cloudinary.api-key=${CLOUDINARY_API_KEY:}
+cloudinary.api-secret=${CLOUDINARY_API_SECRET:}
+
+# OpenAPI/Swagger Configuration
+springdoc.swagger-ui.path=/swagger-ui.html
+springdoc.api-docs.path=/v3/api-docs
+springdoc.swagger-ui.operations-sorter=method
+springdoc.swagger-ui.tags-sorter=alpha
+
+# Logging
+logging.level.root=INFO
+logging.level.com.dealership=DEBUG
+
+# CORS
+app.cors.allowed-origins=${CORS_ALLOWED_ORIGINS:http://localhost:5173,http://localhost:3000}
