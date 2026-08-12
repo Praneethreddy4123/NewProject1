@@ -107,9 +107,6 @@ npm run test:e2e
 - **Frontend:** Deployed to GitHub Pages
 - Production URLs: (coming soon)
 
-## Project Status
-
-This project is in active development. See [SKILL.md](./SKILL.md) for the detailed build plan and progress checklist.
 
 ## Assumptions & Decisions
 
